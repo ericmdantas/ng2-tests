@@ -1,0 +1,24 @@
+{
+  "name": "ng2-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmdantas/ng2-tests.git"
+  },
+  "author": "Eric Mendes Dantas <ericdantas0@gmail.com> (https://github.com/ericmdantas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericmdantas/ng2-tests/issues"
+  },
+  "homepage": "https://github.com/ericmdantas/ng2-tests#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.47",
+    "reflect-metadata": "^0.1.2",
+    "systemjs": "^0.19.6"
+  }
+}
