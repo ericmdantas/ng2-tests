@@ -16,6 +16,19 @@
     "url": "https://github.com/ericmdantas/ng2-tests/issues"
   },
   "homepage": "https://github.com/ericmdantas/ng2-tests#readme",
+  "keywords": [
+    "angular2",
+    "ng2",
+    "tests",
+    "karma",
+    "ng2-tests",
+    "ng2-test",
+    "ng2-unit-test",
+    "unit-test",
+    "component",
+    "service",
+    "directive"
+  ],
   "dependencies": {
     "angular2": "^2.0.0-alpha.47",
     "reflect-metadata": "^0.1.2",
