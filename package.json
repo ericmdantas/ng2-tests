@@ -1,7 +1,7 @@
 {
   "name": "ng2-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bunch of tests using Angular2",
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.conf.js"
@@ -27,10 +27,12 @@
     "unit-test",
     "component",
     "service",
-    "directive"
+    "directive",
+    "http",
+    "router"
   ],
   "dependencies": {
-    "angular2": "^2.0.0-alpha.47",
+    "angular2": "^2.0.0-alpha.48",
     "reflect-metadata": "^0.1.2",
     "systemjs": "^0.19.6"
   },
