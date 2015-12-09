@@ -6,13 +6,13 @@ import {
 
 export class SomeService {
   add():Observable<any> {
-    return Observable.create((o) => {
+    return new Observable((o) => {
       o.next(1);
     });
   }
 
   remove():Observable<any> {
-    return Observable.create((o) => {
+    return new Observable((o) => {
       o.next(2);
     });
   }

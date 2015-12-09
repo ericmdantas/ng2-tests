@@ -1,7 +1,7 @@
 import {
   Component,
   Input
-} from 'angular2/angular2';
+} from 'angular2/core';
 
 @Component({
   selector: 'cmp-with-input',

@@ -1,8 +1,8 @@
-import {Observable} from 'angular2/angular2';
+import {Observable} from 'angular2/core';
 
 export class SimpleObservable {
   doSomething():Observable<any> {
-    return Observable.create((o) => {
+    return new Observable((o) => {
       o.next({done: 1});
     });
   }

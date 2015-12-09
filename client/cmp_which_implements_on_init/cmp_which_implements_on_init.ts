@@ -1,7 +1,7 @@
 import {
   Component,
   Inject
-} from 'angular2/angular2';
+} from 'angular2/core';
 
 export class SomethingService {
   doIt() {

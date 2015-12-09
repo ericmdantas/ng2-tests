@@ -2,7 +2,7 @@ import {
   Component,
   EventEmitter,
   Output
-} from 'angular2/angular2';
+} from 'angular2/core';
 
 @Component({
   selector: 'cmp-with-output',
@@ -12,7 +12,7 @@ import {
   `
 })
 export class CmpWithOuput {
-  @Output('out') out: EventEmitter = new EventEmitter();
+  @Output('out') out: EventEmitter<Object> = new EventEmitter();
 
   go() {
     this.out.next({done: true});
