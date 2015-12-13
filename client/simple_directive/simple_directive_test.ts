@@ -6,7 +6,7 @@ import {
   describe
 } from 'angular2/testing';
 
-import {Component} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 import {SimpleDirective} from './simple_directive.js';
 

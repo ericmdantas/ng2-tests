@@ -7,7 +7,7 @@ import {
   TestComponentBuilder
 } from 'angular2/testing';
 
-import {provide} from 'angular2/angular2';
+import {provide} from 'angular2/core';
 
 import {CmpWithComplexClassDep} from './cmp_with_complex_class_dep.js';
 import {SomeService} from './cmp_with_complex_class_dep.js';

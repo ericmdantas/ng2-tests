@@ -6,7 +6,7 @@ import {
 } from 'angular2/testing';
 
 import {HTTP_PROVIDERS, Http} from 'angular2/http';
-import {provide} from 'angular2/angular2';
+import {provide} from 'angular2/core';
 
 import {ClassWithExternalDeps} from './class_with_external_deps.js';
 

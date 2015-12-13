@@ -1,8 +1,11 @@
 import {
   Component,
   Inject,
+} from 'angular2/core';
+
+import {
   Observable
-} from 'angular2/angular2';
+} from 'rxjs/Observable';
 
 export class SomeService {
   add():Observable<any> {
