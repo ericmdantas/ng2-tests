@@ -7,6 +7,13 @@ import {
   TestComponentBuilder
 } from 'angular2/testing';
 
+import {setBaseTestProviders} from 'angular2/testing';
+
+import {
+  TEST_BROWSER_PLATFORM_PROVIDERS,
+  TEST_BROWSER_APPLICATION_PROVIDERS
+} from 'angular2/platform/testing/browser';
+
 import {provide} from 'angular2/core';
 
 import {CmpWithComplexClassDep} from './cmp_with_complex_class_dep.js';

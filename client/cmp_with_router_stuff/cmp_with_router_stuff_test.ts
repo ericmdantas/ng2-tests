@@ -6,6 +6,13 @@ import {
   TestComponentBuilder
 } from 'angular2/testing';
 
+import {setBaseTestProviders} from 'angular2/testing';
+
+import {
+  TEST_BROWSER_PLATFORM_PROVIDERS,
+  TEST_BROWSER_APPLICATION_PROVIDERS
+} from 'angular2/platform/testing/browser';
+
 import {CmpWithRouterStuff} from './cmp_with_router_stuff.js';
 
 describe('cmp-with-router-stuff', () => {
